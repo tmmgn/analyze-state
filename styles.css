@@ -1,0 +1,61 @@
+body > div {
+  margin-top: 24px;
+}
+
+.main-info {
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+  font-size: 16px;
+}
+
+.title {
+  min-width: 300px;
+  margin-right: 12px;
+}
+
+.value {
+  font-weight: bold;
+}
+
+.widgets-config {
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.widgets-config:last-of-type {
+  border-bottom: none;
+}
+
+.widgets-title {
+  min-width: 500px;
+  margin-right: 12px;
+  font-weight: normal;
+}
+
+.widgets-value {
+  font-weight: bold;
+}
+
+.widgets-config .widgets-config {
+    border-color: transparent;
+}
+
+.widgets-config .widgets-config .widgets-title {
+    min-width: 20px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable.hidden .value {
+    display: none;
+}
+
